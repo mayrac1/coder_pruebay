@@ -1,0 +1,1266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+@media screen and (max-width: 640px){
+    .navSecciones{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 70%;
+        }
+        .navLista{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+       
+        }
+        nav ul li{
+            list-style-type: none;
+            text-align: center;
+        }
+        nav ul li a {
+            color:silver;
+            text-decoration: none;
+            font-family: 'Acme', sans-serif; 
+            font-size: 2rem;
+            text-align:center;
+            margin: 10px;
+            padding: 10px;
+            display: block;
+        }
+        nav ul li a:hover{
+            color: white; 
+            filter:opacity(1); 
+        }
+        
+        .logoContenedor{
+            padding: 30px;
+            display: block; 
+            justify-content: center;
+            position: relative;
+            align-items: center;
+        }
+        .contenedorIndex {
+           position: relative;
+           display: inline-block;
+           text-align: left;
+        }
+        .parrafoIndex {
+            color:black;
+            font-family: 'Acme', sans-serif;  
+            text-align: center;
+            font-size: 2.5rem;  
+            margin: 5px;
+            padding: 5px;
+        
+        }
+        .contenedorCategorias {
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .subtituloCategoria {
+            color:rgb(113, 95, 119);
+            font-weight: bold;
+            font-family: 'Acme', sans-serif; 
+            font-size: 3rem;
+            text-align:center;
+        }
+        .sectionProd {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .contenedorProd {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            justify-content: center;
+        } 
+        .botonProd {
+            margin: 20px;
+            border:none;
+            display: flex;
+        }
+        .botonProd:hover {
+            filter: opacity(1);
+            transform: scale(1.3);
+        }
+        .subtituloUnderline {
+            color:black;
+            font-family:'Commissioner', sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            background-image: linear-gradient(to bottom, #ebc3db, #e2bcdc, #d7b5dd, #c9b0df, #b8abe1, #a4b1eb, #8ab7f1, #6cbdf3, #49ccf0, #43d9e2, #64e2cc, #91e9b3);
+        }
+        
+        .subtituloWeare{
+            font-family:'Commissioner', sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        .contenedorInfo {
+            width: 100%;
+            text-align: center;
+            margin:5px;
+            padding: 10px;
+            overflow: hidden;
+        }
+        .parrafoInfo{
+            font-family:'Acme', sans-serif;
+            font-size: 2rem;
+            margin:5px;
+            padding: 5px;
+            color: grey;
+        
+        }
+        .parrafoInfo1{
+            font-family:'Commissioner', sans-serif;
+            font-size: 1.8rem; 
+            margin: 5px; 
+            padding: 5px;
+            color: black;
+            font-weight: bold;
+        }
+        .subtituloCategoria {
+            color: black;
+            font-family:'Commissioner', sans-serif; 
+            font-size: 2rem; 
+            margin: 5px;
+            padding: 5px;
+        }
+        .parrafoWeare{
+            color: black;
+            font-family: 'Acme', sans-serif;
+            font-size: 2rem;
+            margin: 5px;
+            padding:5px;
+        }
+        .botonNosotros{
+            color:white;
+            font-family: 'Acme', sans-serif; 
+            font-size: 1.8rem;
+         }
+        .parrafoNosotros{
+            color:white;
+            font-family: 'Commissioner', sans-serif;
+            font-size: 1.8rem;
+        }
+        .otroFooter{
+            color: white;
+            font-family: 'Acme', sans-serif;
+            font-size:2rem;
+            justify-content:center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+        
+        }
+        .contenedorFooter{
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            justify-content:center;
+            align-self: center;
+        }
+        .textoFooter{
+            color:grey;
+            font-family:'Commissioner', sans-serif;
+            font-size: 1.5rem;
+            margin: 10px;
+            text-align:center;
+        }
+        .textoDerechos{
+           color:white;
+           font-size:1.5rem;
+           font-family:'Acme', sans-serif;
+           text-align:left;
+        }
+        .tituloProducto{
+            color:white;
+            font-weight: bold;
+            font-family: 'Commissioner', sans-serif;
+            font-size:3rem;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            background-color:rgb(253, 145, 190);
+            border-radius: 20px;
+        }
+        .textoProductos {
+            color:white;
+            font-family:'Commissioner', sans-serif;
+            font-size: 1.8rem; 
+            padding: 5px;
+            margin: 10px;
+        }
+        .textoCupon {
+            font-weight: bold;
+            font-family:'Commissioner', sans-serif;
+            font-size: 2rem;
+            margin: 10px;
+        }
+        .titulosCompras{
+            color:black;
+            font-family:'Commissioner', sans-serif;
+            font-size: 3rem; 
+            padding: 5px;
+            margin: 10px; 
+            text-align: center;
+        }
+        .contenedorContacto{
+            justify-content: center;
+            align-items: center; 
+            text-align: center;
+            background-image: radial-gradient(circle, #ebb1d2, #e0aad7, #d1a4de, #bca0e5, #a19deb, #89a6f5, #6caffc, #45b8ff, #2fcbff, #3bddff, #5ceefb, #82fdf5);
+        }
+        .subtituloBlanco{
+            font-family:'Commissioner';
+            color: white;
+            font-size: 3rem;
+            padding: 10px;
+        }
+        .textoDatos{
+            color: black;
+            font-family:'Commissioner', sans-serif;
+            font-size: 2rem; 
+            margin: 10px;
+        }
+        .botonDatos{
+            color:rgb(113, 95, 119);
+            font-family:'Acme', sans-serif;
+            font-size: 1.5rem; 
+            margin: 5px;
+            padding: 5px;
+            background-color:white;
+            border-radius: 10px;
+            border: white;
+        }
+        .botonCompras{
+            color:white;
+            font-family:'Acme', sans-serif;
+            font-size: 2rem; 
+            margin: 5px;
+            padding: 5px;
+            background-color:rgb(117, 117, 117);
+            border-radius: 10px;
+            border: white;
+        }
+        .botonCompras:hover{
+            color: black; 
+            filter:opacity(1);
+        }
+        .botonDatos:hover{
+            color: pink; 
+            filter:opacity(1);
+        }
+        .banner{
+            background-color: black;
+            width: 100%;
+            display: flex;
+        }
+        .contenedorBox {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            justify-content: center;
+        }
+        .contenedorTipos {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+        }
+        .box{
+            background-color:rgb(152, 162, 255);
+            width:300px;
+            height:auto;
+            margin:10px;
+            padding:20px;
+            border-radius: 10px;
+            background-image: linear-gradient(to bottom, #ebc3db, #e2bcdc, #d7b5dd, #c9b0df, #b8abe1, #a4b1eb, #8ab7f1, #6cbdf3, #49ccf0, #43d9e2, #64e2cc, #91e9b3);
+        }
+        .box:hover {
+            filter: opacity(1);
+        }
+        .boxWe{
+            background-color:rgb(192, 154, 82);
+            width:420px;
+            height:auto;
+            margin:10px;
+            padding:20px;
+            border-radius: 10px;
+        }
+        .boxWe:hover {
+            filter: opacity(1);
+            transform: scale(1.03);
+        }
+        .redesSociales{
+            color: white;
+            padding:10px;
+            margin: 10px;
+            justify-content: center;
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+        .contenedorPiel {
+            width: 250px;
+            height: auto;
+            background-color:white;
+            text-align: center;
+        }
+        .subPiel{
+            font-family: 'Acme', sans-serif;
+            font-size:2rem;
+            text-decoration: none;
+            text-align: center;
+            margin: 10px;
+            padding: 5px;
+        }
+        .parrafoPiel{
+            font-family: 'Acme', sans-serif;
+            font-size:1.8rem;
+            margin: 5px;
+            padding: 5px;
+        }
+        .contenedorMapa{
+            text-align: center;
+        }
+        .videoIndex {
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .contenedorForm {
+            display: flex;
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            margin: 10px;
+        }
+        .contenedorExtra{
+            overflow: hidden;
+        }
+        @keyframes float {
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(20px);
+            }
+            100%{
+                transform: translateY(0);
+            } 
+        }    
+        .redSocial1 {
+            padding: 5px;  
+            margin: 5px;
+            text-align: center;
+            animation: float infinite 3s ease-in-out;
+        }
+        .redSocial2 {
+            padding: 5px;  
+            margin: 5px;
+            text-align: center;
+            animation: float infinite 3s ease-in-out;
+        }
+        .redSocial3 {
+            padding: 5px;  
+            margin: 5px;
+            text-align: center;
+            animation: float infinite 3s ease-in-out;
+        }
+        .contenedorSubindex{
+            width: 40%;
+            display: flex;
+            font-family: 'Acme', sans-serif;
+            font-size:2rem;
+            text-decoration: none;
+            text-align:left;
+            position: absolute;
+            top: 33px;
+            left: 22px;
+        
+        }
+        .contenedorSubindexx{
+            width: 40%;
+            display: flex;
+            font-family: 'Acme', sans-serif;
+            font-size:2rem;
+            text-decoration: none;
+            text-align:left;
+            position: absolute;
+            top: 110px;
+            left: 22px;
+        
+        }
+}
+@media screen and (min-width: 640px) and (max-width:1280px){
+    .navSecciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        }
+        .navLista{
+        display: flex;
+        flex-wrap: wrap;
+        }
+        nav ul li{
+            list-style-type: none;
+            text-align: center;
+        }
+        nav ul li a {
+            color:silver;
+            text-decoration: none;
+            font-family: 'Acme', sans-serif; 
+            font-size: 2.5rem;
+            text-align:right;
+            margin: 10px;
+            padding: 10px;
+            display: block;
+        
+        }
+        nav ul li a:hover{
+            color: white; 
+            filter:opacity(1); 
+        }
+        
+        .logoContenedor{
+            padding: 30px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: left;
+        }
+        .contenedorIndex {
+           position: relative;
+           display: inline-block;
+           text-align: left;
+        }
+        .parrafoIndex {
+            color:black;
+            font-family: 'Acme', sans-serif;  
+            text-align: center;
+            font-size: 2.5rem;  
+            margin: 5px;
+            padding: 5px;
+        
+        }
+        .contenedorCategorias {
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .subtituloCategoria {
+            color:rgb(113, 95, 119);
+            font-weight: bold;
+            font-family: 'Acme', sans-serif; 
+            font-size: 3rem;
+            text-align:center;
+        }
+        .sectionProd {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .contenedorProd {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            justify-content: center;
+        } 
+        .botonProd {
+            margin: 20px;
+            border:none;
+            display: flex;
+        }
+        .botonProd:hover {
+            filter: opacity(1);
+            transform: scale(1.3);
+        }
+        .subtituloUnderline {
+            color:black;
+            font-family:'Commissioner', sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            background-image: linear-gradient(to bottom, #ebc3db, #e2bcdc, #d7b5dd, #c9b0df, #b8abe1, #a4b1eb, #8ab7f1, #6cbdf3, #49ccf0, #43d9e2, #64e2cc, #91e9b3);
+        }
+        
+        .subtituloWeare{
+            font-family:'Commissioner', sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        .contenedorInfo {
+            width: 100%;
+            text-align: center;
+            margin:5px;
+            padding: 10px;
+            overflow: hidden;
+        }
+        .parrafoInfo{
+            font-family:'Acme', sans-serif;
+            font-size: 2rem;
+            margin:5px;
+            padding: 5px;
+            color: grey;
+        
+        }
+        .parrafoInfo1{
+            font-family:'Commissioner', sans-serif;
+            font-size: 1.8rem; 
+            margin: 5px; 
+            padding: 5px;
+            color: black;
+            font-weight: bold;
+        }
+        .subtituloCategoria {
+            color: black;
+            font-family:'Commissioner', sans-serif; 
+            font-size: 2rem; 
+            margin: 5px;
+            padding: 5px;
+        }
+        .parrafoWeare{
+            color: black;
+            font-family: 'Acme', sans-serif;
+            font-size: 2rem;
+            margin: 5px;
+            padding:5px;
+        }
+        .botonNosotros{
+            color:white;
+            font-family: 'Acme', sans-serif; 
+            font-size: 1.8rem;
+         }
+        .parrafoNosotros{
+            color:white;
+            font-family: 'Commissioner', sans-serif;
+            font-size: 1.8rem;
+        }
+        .otroFooter{
+            color: white;
+            font-family: 'Acme', sans-serif;
+            font-size:2rem;
+            justify-content:center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+        
+        }
+        .contenedorFooter{
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            justify-content:center;
+            align-self: center;
+        }
+        .textoFooter{
+            color:grey;
+            font-family:'Commissioner', sans-serif;
+            font-size: 1.5rem;
+            margin: 10px;
+            text-align:center;
+        }
+        .textoDerechos{
+           color:white;
+           font-size:1.5rem;
+           font-family:'Acme', sans-serif;
+           text-align:left;
+        }
+        .tituloProducto{
+            color:white;
+            font-weight: bold;
+            font-family: 'Commissioner', sans-serif;
+            font-size:3rem;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            background-color:rgb(253, 145, 190);
+            border-radius: 20px;
+        }
+        .textoProductos {
+            color:white;
+            font-family:'Commissioner', sans-serif;
+            font-size: 1.8rem; 
+            padding: 5px;
+            margin: 10px;
+        }
+        .textoCupon {
+            font-weight: bold;
+            font-family:'Commissioner', sans-serif;
+            font-size: 2rem;
+            margin: 10px;
+        }
+        .titulosCompras{
+            color:black;
+            font-family:'Commissioner', sans-serif;
+            font-size: 3rem; 
+            padding: 5px;
+            margin: 10px; 
+            text-align: center;
+        }
+        .contenedorContacto{
+            justify-content: center;
+            align-items: center; 
+            text-align: center;
+            background-image: radial-gradient(circle, #ebb1d2, #e0aad7, #d1a4de, #bca0e5, #a19deb, #89a6f5, #6caffc, #45b8ff, #2fcbff, #3bddff, #5ceefb, #82fdf5);
+        }
+        .subtituloBlanco{
+            font-family:'Commissioner';
+            color: white;
+            font-size: 3rem;
+            padding: 10px;
+        }
+        .textoDatos{
+            color: black;
+            font-family:'Commissioner', sans-serif;
+            font-size: 2rem; 
+            margin: 10px;
+        }
+        .botonDatos{
+            color:rgb(113, 95, 119);
+            font-family:'Acme', sans-serif;
+            font-size: 1.5rem; 
+            margin: 5px;
+            padding: 5px;
+            background-color:white;
+            border-radius: 10px;
+            border: white;
+        }
+        .botonCompras{
+            color:white;
+            font-family:'Acme', sans-serif;
+            font-size: 2rem; 
+            margin: 5px;
+            padding: 5px;
+            background-color:rgb(117, 117, 117);
+            border-radius: 10px;
+            border: white;
+        }
+        .botonCompras:hover{
+            color: black; 
+            filter:opacity(1);
+        }
+        .botonDatos:hover{
+            color: pink; 
+            filter:opacity(1);
+        }
+        .banner{
+            background-color: black;
+            width: 100%;
+            display: flex;
+        }
+        .contenedorBox {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            justify-content: center;
+        }
+        .contenedorTipos {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+        }
+        .box{
+            background-color:rgb(152, 162, 255);
+            width:300px;
+            height:auto;
+            margin:10px;
+            padding:20px;
+            border-radius: 10px;
+            background-image: linear-gradient(to bottom, #ebc3db, #e2bcdc, #d7b5dd, #c9b0df, #b8abe1, #a4b1eb, #8ab7f1, #6cbdf3, #49ccf0, #43d9e2, #64e2cc, #91e9b3);
+        }
+        .box:hover {
+            filter: opacity(1);
+        }
+        .boxWe{
+            background-color:rgb(192, 154, 82);
+            width:420px;
+            height:auto;
+            margin:10px;
+            padding:20px;
+            border-radius: 10px;
+        }
+        .boxWe:hover {
+            filter: opacity(1);
+            transform: scale(1.03);
+        }
+        .redesSociales{
+            color: white;
+            padding:10px;
+            margin: 10px;
+            font-family: 'Acme', sans-serif;
+            font-size:2rem;
+            justify-content: flex-end;
+            width: 100%;
+            align-items: flex-end;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .contenedorPiel {
+            width: 250px;
+            height: auto;
+            background-color:white;
+            text-align: center;
+        }
+        .subPiel{
+            font-family: 'Acme', sans-serif;
+            font-size:2rem;
+            text-decoration: none;
+            text-align: center;
+            margin: 10px;
+            padding: 5px;
+        }
+        .parrafoPiel{
+            font-family: 'Acme', sans-serif;
+            font-size:1.8rem;
+            margin: 5px;
+            padding: 5px;
+        }
+        .contenedorMapa{
+            text-align: center;
+        }
+        .videoIndex {
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .contenedorForm {
+            display: flex;
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            margin: 10px;
+        }
+        .contenedorExtra{
+            overflow: hidden;
+        }
+        @keyframes float {
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(20px);
+            }
+            100%{
+                transform: translateY(0);
+            } 
+        }    
+        .redSocial1 {
+            padding: 5px;  
+            margin: 5px;
+            text-align: center;
+            animation: float infinite 3s ease-in-out;
+        }
+        .redSocial2 {
+            padding: 5px;  
+            margin: 5px;
+            text-align: center;
+            animation: float infinite 3s ease-in-out;
+        }
+        .redSocial3 {
+            padding: 5px;  
+            margin: 5px;
+            text-align: center;
+            animation: float infinite 3s ease-in-out;
+        }
+        .contenedorSubindex{
+            width: 50%;
+            display: flex;
+            font-family: 'Acme', sans-serif;
+            font-size:4rem;
+            text-decoration: none;
+            text-align:left;
+            position: absolute;
+            top: 150px;
+            left: 40px;
+        
+        }
+        .contenedorSubindexx{
+            width: 50%;
+            display: flex;
+            font-family: 'Acme', sans-serif;
+            font-size:4rem;
+            text-decoration: none;
+            text-align:left;
+            position: absolute;
+            top: 200px;
+            left: 40px;
+        
+        }
+}
+@media screen and (min-width: 1280px){
+    .navSecciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        }
+        .navLista{
+        display: flex;
+        flex-wrap: wrap;
+        }
+        nav ul li{
+            list-style-type: none;
+            text-align: center;
+        }
+        nav ul li a {
+            color:silver;
+            text-decoration: none;
+            font-family: 'Acme', sans-serif; 
+            font-size: 2.5rem;
+            text-align:right;
+            margin: 10px;
+            padding: 10px;
+            display: block;
+        
+        }
+        nav ul li a:hover{
+            color: white; 
+            filter:opacity(1); 
+        }
+        
+        .logoContenedor{
+            padding: 30px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: left;
+        }
+        .contenedorIndex {
+           position: relative;
+           display: inline-block;
+           text-align: left;
+        }
+        .parrafoIndex {
+            color:black;
+            font-family: 'Acme', sans-serif;  
+            text-align: center;
+            font-size: 2.5rem;  
+            margin: 5px;
+            padding: 5px;
+        
+        }
+        .contenedorCategorias {
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .subtituloCategoria {
+            color:rgb(113, 95, 119);
+            font-weight: bold;
+            font-family: 'Acme', sans-serif; 
+            font-size: 3rem;
+            text-align:center;
+        }
+        .sectionProd {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .subtituloProductos {
+            color:rgb(113, 95, 119);
+            font-weight: bold;
+            font-family: 'Acme', sans-serif; 
+            font-size: 2.5rem;
+            text-align:center;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: underline;
+        }
+        .contenedorProd {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            justify-content: center;
+        } 
+        .botonProd {
+            margin: 20px;
+            border:none;
+            display: flex;
+        }
+        .botonProd:hover {
+            filter: opacity(1);
+            transform: scale(1.3);
+        }
+        .subtituloUnderline {
+            color:black;
+            font-family:'Commissioner', sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            background-image: linear-gradient(to bottom, #ebc3db, #e2bcdc, #d7b5dd, #c9b0df, #b8abe1, #a4b1eb, #8ab7f1, #6cbdf3, #49ccf0, #43d9e2, #64e2cc, #91e9b3);
+        }
+        .contenedorJuventud {
+            background-image: linear-gradient(to bottom, #f0bdbd, #f2cdd7, #f3deeb, #f6eff8, #ffffff);
+            width: 100%;
+            height: auto;
+        }
+        .subtituloWeare{
+            font-family:'Commissioner', sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        .contenedorInfo {
+            width: 100%;
+            text-align: center;
+            margin:5px;
+            padding: 10px;
+            overflow: hidden;
+        }
+        .parrafoInfo{
+            font-family:'Acme', sans-serif;
+            font-size: 2rem;
+            margin:5px;
+            padding: 5px;
+            color: grey;
+        
+        }
+        .parrafoInfo1{
+            font-family:'Commissioner', sans-serif;
+            font-size: 1.8rem; 
+            margin: 5px; 
+            padding: 5px;
+            color: black;
+            font-weight: bold;
+        }
+        .subtituloCategoria {
+            color: black;
+            font-family:'Commissioner', sans-serif; 
+            font-size: 2rem; 
+            margin: 5px;
+            padding: 5px;
+        }
+        .parrafoWeare{
+            color: black;
+            font-family: 'Acme', sans-serif;
+            font-size: 2rem;
+            margin: 5px;
+            padding:5px;
+        }
+        .botonNosotros{
+            color:white;
+            font-family: 'Acme', sans-serif; 
+            font-size: 1.8rem;
+         }
+        .parrafoNosotros{
+            color:white;
+            font-family: 'Commissioner', sans-serif;
+            font-size: 1.8rem;
+        }
+        .otroFooter{
+            color: white;
+            font-family: 'Acme', sans-serif;
+            font-size:2rem;
+            justify-content:center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+        
+        }
+        .contenedorFooter{
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            justify-content:center;
+            align-self: center;
+        }
+        .textoFooter{
+            color:grey;
+            font-family:'Commissioner', sans-serif;
+            font-size: 1.5rem;
+            margin: 10px;
+            text-align:center;
+        }
+        .textoDerechos{
+           color:white;
+           font-size:1.5rem;
+           font-family:'Acme', sans-serif;
+           text-align:left;
+        }
+        .tituloProducto{
+            color:white;
+            font-weight: bold;
+            font-family: 'Commissioner', sans-serif;
+            font-size:3rem;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            background-color:rgb(253, 145, 190);
+            border-radius: 20px;
+        }
+        .textoProductos {
+            color:white;
+            font-family:'Commissioner', sans-serif;
+            font-size: 1.8rem; 
+            padding: 5px;
+            margin: 10px;
+        }
+        .textoCupon {
+            font-weight: bold;
+            font-family:'Commissioner', sans-serif;
+            font-size: 2rem;
+            margin: 10px;
+        }
+        .titulosCompras{
+            color:black;
+            font-family:'Commissioner', sans-serif;
+            font-size: 3rem; 
+            padding: 5px;
+            margin: 10px; 
+            text-align: center;
+        }
+        .contenedorContacto{
+            justify-content: center;
+            align-items: center; 
+            text-align: center;
+            background-image: radial-gradient(circle, #ebb1d2, #e0aad7, #d1a4de, #bca0e5, #a19deb, #89a6f5, #6caffc, #45b8ff, #2fcbff, #3bddff, #5ceefb, #82fdf5);
+        }
+        .subtituloBlanco{
+            font-family:'Commissioner';
+            color: white;
+            font-size: 3rem;
+            padding: 10px;
+        }
+        .textoDatos{
+            color: black;
+            font-family:'Commissioner', sans-serif;
+            font-size: 2rem; 
+            margin: 10px;
+        }
+        .botonDatos{
+            color:rgb(113, 95, 119);
+            font-family:'Acme', sans-serif;
+            font-size: 1.5rem; 
+            margin: 5px;
+            padding: 5px;
+            background-color:white;
+            border-radius: 10px;
+            border: white;
+        }
+        .botonCompras{
+            color:white;
+            font-family:'Acme', sans-serif;
+            font-size: 2rem; 
+            margin: 5px;
+            padding: 5px;
+            background-color:rgb(117, 117, 117);
+            border-radius: 10px;
+            border: white;
+        }
+        .botonCompras:hover{
+            color: black; 
+            filter:opacity(1);
+        }
+        .botonDatos:hover{
+            color: pink; 
+            filter:opacity(1);
+        }
+        .banner{
+            background-color: black;
+            width: 100%;
+            display: flex;
+        }
+        .contenedorBox {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            justify-content: center;
+        }
+        .contenedorTipos {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+        }
+        .box{
+            background-color:rgb(152, 162, 255);
+            width:300px;
+            height:auto;
+            margin:10px;
+            padding:20px;
+            border-radius: 10px;
+            background-image: linear-gradient(to bottom, #ebc3db, #e2bcdc, #d7b5dd, #c9b0df, #b8abe1, #a4b1eb, #8ab7f1, #6cbdf3, #49ccf0, #43d9e2, #64e2cc, #91e9b3);
+        }
+        .box:hover {
+            filter: opacity(1);
+        }
+        .boxWe{
+            background-color:rgb(192, 154, 82);
+            width:420px;
+            height:auto;
+            margin:10px;
+            padding:20px;
+            border-radius: 10px;
+        }
+        .boxWe:hover {
+            filter: opacity(1);
+            transform: scale(1.03);
+        }
+        .redesSociales{
+            color: white;
+            padding:10px;
+            margin: 10px;
+            justify-content: flex-end;
+            width: 100%;
+            align-items: flex-end;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .contenedorPiel {
+            width: 250px;
+            height: auto;
+            background-color:white;
+            text-align: center;
+        }
+        .subPiel{
+            font-family: 'Acme', sans-serif;
+            font-size:2rem;
+            text-decoration: none;
+            text-align: center;
+            margin: 10px;
+            padding: 5px;
+        }
+        .parrafoPiel{
+            font-family: 'Acme', sans-serif;
+            font-size:1.8rem;
+            margin: 5px;
+            padding: 5px;
+        }
+        .contenedorMapa{
+            text-align: center;
+        }
+        .videoIndex {
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .contenedorForm {
+            display: flex;
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            margin: 10px;
+        }
+        .contenedorExtra{
+            overflow: hidden;
+        }
+        @keyframes float {
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(20px);
+            }
+            100%{
+                transform: translateY(0);
+            } 
+        }    
+        .redSocial1 {
+            padding: 5px;  
+            margin: 5px;
+            text-align: center;
+            animation: float infinite 3s ease-in-out;
+        }
+        .redSocial2 {
+            padding: 5px;  
+            margin: 5px;
+            text-align: center;
+            animation: float infinite 3s ease-in-out;
+        }
+        .redSocial3 {
+            padding: 5px;  
+            margin: 5px;
+            text-align: center;
+            animation: float infinite 3s ease-in-out;
+        }
+        .contenedorSubindex{
+            width: 50%;
+            display: flex;
+            font-family: 'Acme', sans-serif;
+            font-size:4rem;
+            text-decoration: none;
+            text-align:left;
+            position: absolute;
+            top: 150px;
+            left: 40px;
+        }
+        .contenedorSubindexx{
+            width: 50%;
+            display: flex;
+            font-family: 'Acme', sans-serif;
+            font-size:4rem;
+            text-decoration: none;
+            text-align:left;
+            position: absolute;
+            top: 200px;
+            left: 40px;
+        
+        }
+}
